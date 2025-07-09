@@ -10,3 +10,5 @@ First install yay: ./InstallYay.sh
 
 Then move the config files to ~/.config
 
+# For Waypaper - config.ini
+matugen --show-colors -t scheme-content image $wallpaper
