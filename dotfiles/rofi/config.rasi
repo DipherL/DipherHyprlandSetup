@@ -1,0 +1,5 @@
+@theme "~/.config/rofi/bas16.rasi"
+
+window {
+  widith: 50%;
+}
