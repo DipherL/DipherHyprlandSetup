@@ -30,6 +30,14 @@
   border: 0.095rem solid @on_primary_fixed_variant;
 }
 
+#pulseaudio {
+  background-color: @jpegmafia;
+  padding: 0.4rem;
+  margin: 0.145rem;
+  border-radius: 0.6rem;
+  border: 0.095rem solid @on_primary_fixed_variant;
+}
+
 
 
 
