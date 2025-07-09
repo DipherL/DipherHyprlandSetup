@@ -1,0 +1,78 @@
+@import "colors.css";
+
+/* GENERAL */
+* {
+  font-family: SF Pro Display, MesloLGM Nerd Font Propo;
+  font-size: 11px;
+  min-height: 0;
+  font-weight: bold;
+  color: @primary;
+}
+
+
+#waybar {
+	background: transparent;
+}
+
+#window {
+  background-color: @jpegmafia;
+  padding: 0.4rem;
+  margin: 0.145rem;
+  border-radius: 0.6rem;
+  border: 0.095rem solid @on_primary_fixed_variant;
+}
+
+#battery {
+  background-color: @jpegmafia;
+  padding: 0.4rem;
+  margin: 0.145rem;
+  border-radius: 0.6rem;
+  border: 0.095rem solid @on_primary_fixed_variant;
+}
+
+
+
+
+
+#workspaces {
+  background-color: @jpegmafia;
+  padding: 0.4rem;
+  margin: 0.145rem;
+  border-radius: 0.6rem;
+  border: 0.095rem solid @on_primary_fixed_variant;
+}
+
+#workspaces button {
+    padding: 0 0.2rem;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+#workspaces button:hover {
+    background: @jpegmafia;
+}
+
+#workspaces button.focused {
+    background-color: #64727D;
+    box-shadow: inset 0 -3px #ffffff;
+}
+
+#workspaces button.urgent {
+    background-color: #eb4d4b;
+}
+
+#clock {
+  background-color: @jpegmafia;
+  padding: 0.4rem;
+  margin: 0.145rem;
+  border-radius: 0.6rem;
+  border: 0.095rem solid @on_primary_fixed_variant;
+}
+
+#memory {
+  background-color: @jpegmafia;
+  padding: 0.4rem;
+  margin: 0.145rem;
+  border-radius: 0.6rem;
+  border: 0.095rem solid @on_primary_fixed_variant;
+}
