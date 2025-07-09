@@ -30,7 +30,7 @@
   border: 0.095rem solid @on_primary_fixed_variant;
 }
 
-#pulseaudio {
+#tray {
   background-color: @jpegmafia;
   padding: 0.4rem;
   margin: 0.145rem;
@@ -38,7 +38,25 @@
   border: 0.095rem solid @on_primary_fixed_variant;
 }
 
+#tray > .passive {
+    -gtk-icon-effect: dim;
+}
 
+#tray > .needs-attention {
+    -gtk-icon-effect: highlight;
+    background-color: @error;
+}
+
+
+
+
+#pulseaudio {
+  background-color: @jpegmafia;
+  padding: 0.4rem;
+  margin: 0.145rem;
+  border-radius: 0.6rem;
+  border: 0.095rem solid @on_primary_fixed_variant;
+}
 
 
 
