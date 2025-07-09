@@ -1,9 +1,9 @@
 {
     "layer": "top",
     "height": 26,
-    "modules-left": ["hyprland/workspaces", "sway/mode"],
+    "modules-left": ["hyprland/workspaces", "battery"],
     "modules-center": ["hyprland/window"],
-    "modules-right": ["pulseaudio", "memory", "battery", "clock"],
+    "modules-right": ["memory", "pulseaudio", "tray", "clock"],
     "hyprland/window": {
     	"format": "{title}", 
         "max-length": 50
@@ -22,6 +22,15 @@
 	   "default": "",
 	}
     },
+
+ "tray": {
+    "icon-size": 16,
+    "spacing": 6,
+    "icons": {
+        "blueman": "bluetooth",
+        "TelegramDesktop": "$HOME/.local/share/icons/hicolor/16x16/apps/telegram.png"
+    }
+},
 
      "memory": {
 	"interval": 30,
@@ -48,6 +57,9 @@
     "on-click": "pavucontrol",
     "ignored-sinks": ["Easy Effects Sink"]
 },
+
+
+
 
 
 
